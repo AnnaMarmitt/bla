@@ -1,0 +1,143 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  display: grid;
+  justify-items: center;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 20px;
+}
+
+li a {
+  display: block;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: black;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+}
+
+a:hover {
+  border: 1px solid #ee2211;
+}
+
+main {
+  margin-top: 60px;
+}
+
+.descriçao {
+  background-color: white;
+  display: grid;
+  padding: 60px 30px 60px 30px;
+  justify-items: right;
+  text-align: right;
+  align-items: center;
+}
+
+.descriçao a {
+  display: block;
+  background-color: #ee2211;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+main a:hover {
+  display: block;
+  background-color: #ad1e11;
+  border: none;
+  transition: 1.5;
+}
+
+h1 {
+  display: block;
+  font-size: 2rem;
+  margin: 0px;
+  margin-bottom: 0px;
+  align-self: right;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 10px auto 0px auto;
+}
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subtitulo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.vantagens {
+  display: grid;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  margin: 60px auto 60px auto;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: right;
+}
+
+.vantagens2 {
+  display: grid;
+  align-content: center;
+  padding: 60px 30px 60px 30px;
+  text-transform: uppercase;
+  color: #c6c6c6;
+}
+
+.vantagens {
+  display: grid;
+  padding: 60px 30px 60px 30px;
+}
+
+.icon {
+  display: flex;
+}
+
+article li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+article li:hover {
+  border-left: 2px solid #ee2211;
+  display: block;
+}
+
+.negrito {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.vantagens-item {
+  display: grid;
+  padding: 30px;
+  margin: auto;
+}
